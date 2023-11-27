@@ -31,7 +31,7 @@ Original data can be found here https://nces.ed.gov/programs/digest/d17/tables/d
 
 ## Getting Started:
 
-1. Clone the existing Vue project from [provide the GitHub repository link].
+1. Clone the existing Vue project.
 2. To run the project, from the root of the project run `npm install` `npm run serve`
 3. Install and configure Apex Charts within the Vue project.
 4. Modify the Vue components to seamlessly integrate and display the charts based on the datasets.
