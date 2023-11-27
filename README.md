@@ -3,6 +3,10 @@
 
 We're delighted to have you join our coding challenge, where we're seeking your expertise in modifying an existing Vue project and integrating Apex Charts for data visualization. Vue.js, a progressive JavaScript framework, combined with Apex Charts, a charting library, provides an excellent platform for creating dynamic and interactive charts.
 
+## Estimated duration
+
+This task is estimated at taking 2 - 3 hours
+
 ## Challenge Overview:
 
 Your objective is to enhance our Vue project by seamlessly integrating Apex Charts to present insightful visualizations based on provided datasets. Utilizing a set of data points representing various metrics, your task is to incorporate these charts into our Vue application.
