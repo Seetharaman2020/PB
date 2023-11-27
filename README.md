@@ -8,7 +8,7 @@ Your objective is to enhance our Vue project by seamlessly integrating Apex Char
 
 ## Requirements:
 
-1. Create a single Apex Line & Column chart
+1. Create a single Apex Mixed Line & Column chart
 2. The Column will represent staff FTE count (staff.json)
 3. The Line will represent pupils per staff member (pupils.json)
 4. Create a list of positions as a menu so when clicked they will update the chart with the positions dataset
@@ -19,6 +19,8 @@ Your objective is to enhance our Vue project by seamlessly integrating Apex Char
 The datasets required for this challenge are available in JSON files found in the repo under the /data folder.
 - `Staff.json` represents the total amount of Full Time Employees (FTE)
 - `Pupils.json` represents the pupils per staff member
+
+Treat the JSON files the same way you would treat the response from an API call.
  
 Original data can be found here https://nces.ed.gov/programs/digest/d17/tables/dt17_213.10.asp
 
