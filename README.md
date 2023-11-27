@@ -1,4 +1,5 @@
-# Welcome to the Peoplebench Vue Code Challenge: Apex Charts Integration
+# Welcome to the Peoplebench Vue Code Challenge: 
+# Apex Charts Integration
 
 We're delighted to have you join our coding challenge, where we're seeking your expertise in modifying an existing Vue project and integrating Apex Charts for data visualization. Vue.js, a progressive JavaScript framework, combined with Apex Charts, a charting library, provides an excellent platform for creating dynamic and interactive charts.
 
