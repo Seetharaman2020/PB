@@ -1,155 +1,155 @@
 [
     {
-      "School year": 1999,
-      "Principals and assistant principals": 137199,
-      "Teachers": 2910633,
-      "Instructional aides": 621942,
-      "Librarians": 53659,
-      "Guidance counselors": 95624,
-      "Support staff": 1718813
+      "schoolYear": 1999,
+      "principals": 137199,
+      "teachers": 2910633,
+      "instructionalAides": 621942,
+      "librarians": 53659,
+      "guidanceCounselors": 95624,
+      "supportStaff": 1718813
     },
     {
-      "School year": 2000,
-      "Principals and assistant principals": 141792,
-      "Teachers": 2941461,
-      "Instructional aides": 641392,
-      "Librarians": 54246,
-      "Guidance counselors": 97737,
-      "Support staff": 1735855
+      "schoolYear": 2000,
+      "principals": 141792,
+      "teachers": 2941461,
+      "instructionalAides": 641392,
+      "librarians": 54246,
+      "guidanceCounselors": 97737,
+      "supportStaff": 1735855
     },
     {
-      "School year": 2001,
-      "Principals and assistant principals": 160543,
-      "Teachers": 2999528,
-      "Instructional aides": 674741,
-      "Librarians": 54350,
-      "Guidance counselors": 100049,
-      "Support staff": 1805458
+      "schoolYear": 2001,
+      "principals": 160543,
+      "teachers": 2999528,
+      "instructionalAides": 674741,
+      "librarians": 54350,
+      "guidanceCounselors": 100049,
+      "supportStaff": 1805458
     },
     {
-      "School year": 2002,
-      "Principals and assistant principals": 164171,
-      "Teachers": 3034123,
-      "Instructional aides": 663552,
-      "Librarians": 54205,
-      "Guidance counselors": 100912,
-      "Support staff": 1826921
+      "schoolYear": 2002,
+      "principals": 164171,
+      "teachers": 3034123,
+      "instructionalAides": 663552,
+      "librarians": 54205,
+      "guidanceCounselors": 100912,
+      "supportStaff": 1826921
     },
     {
-      "School year": 2003,
-      "Principals and assistant principals": 165233,
-      "Teachers": 3048652,
-      "Instructional aides": 685118,
-      "Librarians": 54349,
-      "Guidance counselors": 99387,
-      "Support staff": 1793445
+      "schoolYear": 2003,
+      "principals": 165233,
+      "teachers": 3048652,
+      "instructionalAides": 685118,
+      "librarians": 54349,
+      "guidanceCounselors": 99387,
+      "supportStaff": 1793445
     },
     {
-      "School year": 2004,
-      "Principals and assistant principals": 165657,
-      "Teachers": 3090925,
-      "Instructional aides": 707514,
-      "Librarians": 54145,
-      "Guidance counselors": 101822,
-      "Support staff": 1826279
+      "schoolYear": 2004,
+      "principals": 165657,
+      "teachers": 3090925,
+      "instructionalAides": 707514,
+      "librarians": 54145,
+      "guidanceCounselors": 101822,
+      "supportStaff": 1826279
     },
     {
-      "School year": 2005,
-      "Principals and assistant principals": 156454,
-      "Teachers": 3143003,
-      "Instructional aides": 693792,
-      "Librarians": 54057,
-      "Guidance counselors": 103930,
-      "Support staff": 1858286
+      "schoolYear": 2005,
+      "principals": 156454,
+      "teachers": 3143003,
+      "instructionalAides": 693792,
+      "librarians": 54057,
+      "guidanceCounselors": 103930,
+      "supportStaff": 1858286
     },
     {
-      "School year": 2006,
-      "Principals and assistant principals": 153673,
-      "Teachers": 3166391,
-      "Instructional aides": 709715,
-      "Librarians": 54444,
-      "Guidance counselors": 102745,
-      "Support staff": 1848060
+      "schoolYear": 2006,
+      "principals": 153673,
+      "teachers": 3166391,
+      "instructionalAides": 709715,
+      "librarians": 54444,
+      "guidanceCounselors": 102745,
+      "supportStaff": 1848060
     },
     {
-      "School year": 2007,
-      "Principals and assistant principals": 157539,
-      "Teachers": 3199995,
-      "Instructional aides": 717806,
-      "Librarians": 54386,
-      "Guidance counselors": 105512,
-      "Support staff": 1867629
+      "schoolYear": 2007,
+      "principals": 157539,
+      "teachers": 3199995,
+      "instructionalAides": 717806,
+      "librarians": 54386,
+      "guidanceCounselors": 105512,
+      "supportStaff": 1867629
     },
     {
-      "School year": 2008,
-      "Principals and assistant principals": 159897,
-      "Teachers": 3222154,
-      "Instructional aides": 734010,
-      "Librarians": 53805,
-      "Guidance counselors": 107808,
-      "Support staff": 1913322
+      "schoolYear": 2008,
+      "principals": 159897,
+      "teachers": 3222154,
+      "instructionalAides": 734010,
+      "librarians": 53805,
+      "guidanceCounselors": 107808,
+      "supportStaff": 1913322
     },
     {
-      "School year": 2009,
-      "Principals and assistant principals": 168450,
-      "Teachers": 3209672,
-      "Instructional aides": 741337,
-      "Librarians": 52545,
-      "Guidance counselors": 107484,
-      "Support staff": 1933198
+      "schoolYear": 2009,
+      "principals": 168450,
+      "teachers": 3209672,
+      "instructionalAides": 741337,
+      "librarians": 52545,
+      "guidanceCounselors": 107484,
+      "supportStaff": 1933198
     },
     {
-      "School year": 2010,
-      "Principals and assistant principals": 165047,
-      "Teachers": 3099095,
-      "Instructional aides": 731705,
-      "Librarians": 50300,
-      "Guidance counselors": 105079,
-      "Support staff": 1910150
+      "schoolYear": 2010,
+      "principals": 165047,
+      "teachers": 3099095,
+      "instructionalAides": 731705,
+      "librarians": 50300,
+      "guidanceCounselors": 105079,
+      "supportStaff": 1910150
     },
     {
-      "School year": 2011,
-      "Principals and assistant principals": 166416,
-      "Teachers": 3103263,
-      "Instructional aides": 710335,
-      "Librarians": 48402,
-      "Guidance counselors": 105351,
-      "Support staff": 1874528
+      "schoolYear": 2011,
+      "principals": 166416,
+      "teachers": 3103263,
+      "instructionalAides": 710335,
+      "librarians": 48402,
+      "guidanceCounselors": 105351,
+      "supportStaff": 1874528
     },
     {
-      "School year": 2012,
-      "Principals and assistant principals": 169240,
-      "Teachers": 3109101,
-      "Instructional aides": 729756,
-      "Librarians": 46685,
-      "Guidance counselors": 103218,
-      "Support staff": 1886851
+      "schoolYear": 2012,
+      "principals": 169240,
+      "teachers": 3109101,
+      "instructionalAides": 729756,
+      "librarians": 46685,
+      "guidanceCounselors": 103218,
+      "supportStaff": 1886851
     },
     {
-      "School year": 2013,
-      "Principals and assistant principals": 168101,
-      "Teachers": 3113764,
-      "Instructional aides": 738226,
-      "Librarians": 45106,
-      "Guidance counselors": 101920,
-      "Support staff": 1881116
+      "schoolYear": 2013,
+      "principals": 168101,
+      "teachers": 3113764,
+      "instructionalAides": 738226,
+      "librarians": 45106,
+      "guidanceCounselors": 101920,
+      "supportStaff": 1881116
     },
     {
-      "School year": 2014,
-      "Principals and assistant principals": 174664,
-      "Teachers": 3132351,
-      "Instructional aides": 749143,
-      "Librarians": 44624,
-      "Guidance counselors": 104306,
-      "Support staff": 1905226
+      "schoolYear": 2014,
+      "principals": 174664,
+      "teachers": 3132351,
+      "instructionalAides": 749143,
+      "librarians": 44624,
+      "guidanceCounselors": 104306,
+      "supportStaff": 1905226
     },
     {
-      "School year": 2015,
-      "Principals and assistant principals": 182006,
-      "Teachers": 3151497,
-      "Instructional aides": 764537,
-      "Librarians": 43368,
-      "Guidance counselors": 108376,
-      "Support staff": 1977759
+      "schoolYear": 2015,
+      "principals": 182006,
+      "teachers": 3151497,
+      "instructionalAides": 764537,
+      "librarians": 43368,
+      "guidanceCounselors": 108376,
+      "supportStaff": 1977759
     }
   ]

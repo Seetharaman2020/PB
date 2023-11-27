@@ -1,155 +1,155 @@
 [
     {
-      "School year": 1999,
-      "Principals and assistant principals": 341.5,
-      "Teachers": 16.1,
-      "Instructional aides": 75.3,
-      "Librarians": 873.2,
-      "Guidance counselors": 490.0,
-      "Support staff": 27.3
+      "schoolYear": 1999,
+      "principals": 341.5,
+      "teachers": 16.1,
+      "instructionalAides": 75.3,
+      "librarians": 873.2,
+      "guidanceCounselors": 490.0,
+      "supportStaff": 27.3
     },
     {
-      "School year": 2000,
-      "Principals and assistant principals": 332.9,
-      "Teachers": 16.0,
-      "Instructional aides": 73.6,
-      "Librarians": 870.2,
-      "Guidance counselors": 483.0,
-      "Support staff": 27.2
+      "schoolYear": 2000,
+      "principals": 332.9,
+      "teachers": 16.0,
+      "instructionalAides": 73.6,
+      "librarians": 870.2,
+      "guidanceCounselors": 483.0,
+      "supportStaff": 27.2
     },
     {
-      "School year": 2001,
-      "Principals and assistant principals": 296.9,
-      "Teachers": 15.9,
-      "Instructional aides": 70.7,
-      "Librarians": 877.1,
-      "Guidance counselors": 476.5,
-      "Support staff": 26.4
+      "schoolYear": 2001,
+      "principals": 296.9,
+      "teachers": 15.9,
+      "instructionalAides": 70.7,
+      "librarians": 877.1,
+      "guidanceCounselors": 476.5,
+      "supportStaff": 26.4
     },
     {
-      "School year": 2002,
-      "Principals and assistant principals": 293.5,
-      "Teachers": 15.9,
-      "Instructional aides": 72.6,
-      "Librarians": 888.9,
-      "Guidance counselors": 477.5,
-      "Support staff": 26.4
+      "schoolYear": 2002,
+      "principals": 293.5,
+      "teachers": 15.9,
+      "instructionalAides": 72.6,
+      "librarians": 888.9,
+      "guidanceCounselors": 477.5,
+      "supportStaff": 26.4
     },
     {
-      "School year": 2003,
-      "Principals and assistant principals": 293.8,
-      "Teachers": 15.9,
-      "Instructional aides": 70.8,
-      "Librarians": 893.1,
-      "Guidance counselors": 488.4,
-      "Support staff": 27.1
+      "schoolYear": 2003,
+      "principals": 293.8,
+      "teachers": 15.9,
+      "instructionalAides": 70.8,
+      "librarians": 893.1,
+      "guidanceCounselors": 488.4,
+      "supportStaff": 27.1
     },
     {
-      "School year": 2004,
-      "Principals and assistant principals": 294.6,
-      "Teachers": 15.8,
-      "Instructional aides": 69.0,
-      "Librarians": 901.2,
-      "Guidance counselors": 479.2,
-      "Support staff": 26.7
+      "schoolYear": 2004,
+      "principals": 294.6,
+      "teachers": 15.8,
+      "instructionalAides": 69.0,
+      "librarians": 901.2,
+      "guidanceCounselors": 479.2,
+      "supportStaff": 26.7
     },
     {
-      "School year": 2005,
-      "Principals and assistant principals": 313.9,
-      "Teachers": 15.6,
-      "Instructional aides": 70.8,
-      "Librarians": 908.5,
-      "Guidance counselors": 472.6,
-      "Support staff": 26.4
+      "schoolYear": 2005,
+      "principals": 313.9,
+      "teachers": 15.6,
+      "instructionalAides": 70.8,
+      "librarians": 908.5,
+      "guidanceCounselors": 472.6,
+      "supportStaff": 26.4
     },
     {
-      "School year": 2006,
-      "Principals and assistant principals": 320.9,
-      "Teachers": 15.6,
-      "Instructional aides": 69.5,
-      "Librarians": 905.8,
-      "Guidance counselors": 480.0,
-      "Support staff": 26.7
+      "schoolYear": 2006,
+      "principals": 320.9,
+      "teachers": 15.6,
+      "instructionalAides": 69.5,
+      "librarians": 905.8,
+      "guidanceCounselors": 480.0,
+      "supportStaff": 26.7
     },
     {
-      "School year": 2007,
-      "Principals and assistant principals": 312.9,
-      "Teachers": 15.4,
-      "Instructional aides": 68.7,
-      "Librarians": 906.3,
-      "Guidance counselors": 467.2,
-      "Support staff": 26.4
+      "schoolYear": 2007,
+      "principals": 312.9,
+      "teachers": 15.4,
+      "instructionalAides": 68.7,
+      "librarians": 906.3,
+      "guidanceCounselors": 467.2,
+      "supportStaff": 26.4
     },
     {
-      "School year": 2008,
-      "Principals and assistant principals": 308.1,
-      "Teachers": 15.3,
-      "Instructional aides": 67.1,
-      "Librarians": 915.6,
-      "Guidance counselors": 457.0,
-      "Support staff": 25.7
+      "schoolYear": 2008,
+      "principals": 308.1,
+      "teachers": 15.3,
+      "instructionalAides": 67.1,
+      "librarians": 915.6,
+      "guidanceCounselors": 457.0,
+      "supportStaff": 25.7
     },
     {
-      "School year": 2009,
-      "Principals and assistant principals": 293.0,
-      "Teachers": 15.4,
-      "Instructional aides": 66.6,
-      "Librarians": 939.4,
-      "Guidance counselors": 459.2,
-      "Support staff": 25.5
+      "schoolYear": 2009,
+      "principals": 293.0,
+      "teachers": 15.4,
+      "instructionalAides": 66.6,
+      "librarians": 939.4,
+      "guidanceCounselors": 459.2,
+      "supportStaff": 25.5
     },
     {
-      "School year": 2010,
-      "Principals and assistant principals": 299.8,
-      "Teachers": 16.0,
-      "Instructional aides": 67.6,
-      "Librarians": 983.8,
-      "Guidance counselors": 470.9,
-      "Support staff": 25.9
+      "schoolYear": 2010,
+      "principals": 299.8,
+      "teachers": 16.0,
+      "instructionalAides": 67.6,
+      "librarians": 983.8,
+      "guidanceCounselors": 470.9,
+      "supportStaff": 25.9
     },
     {
-      "School year": 2011,
-      "Principals and assistant principals": 297.6,
-      "Teachers": 16.0,
-      "Instructional aides": 69.7,
-      "Librarians": 1023.1,
-      "Guidance counselors": 470.1,
-      "Support staff": 26.4
+      "schoolYear": 2011,
+      "principals": 297.6,
+      "teachers": 16.0,
+      "instructionalAides": 69.7,
+      "librarians": 1023.1,
+      "guidanceCounselors": 470.1,
+      "supportStaff": 26.4
     },
     {
-      "School year": 2012,
-      "Principals and assistant principals": 294.1,
-      "Teachers": 16.0,
-      "Instructional aides": 68.2,
-      "Librarians": 1066.1,
-      "Guidance counselors": 482.2,
-      "Support staff": 26.4
+      "schoolYear": 2012,
+      "principals": 294.1,
+      "teachers": 16.0,
+      "instructionalAides": 68.2,
+      "librarians": 1066.1,
+      "guidanceCounselors": 482.2,
+      "supportStaff": 26.4
     },
     {
-      "School year": 2013,
-      "Principals and assistant principals": 297.7,
-      "Teachers": 16.1,
-      "Instructional aides": 67.8,
-      "Librarians": 1109.5,
-      "Guidance counselors": 491.0,
-      "Support staff": 26.6
+      "schoolYear": 2013,
+      "principals": 297.7,
+      "teachers": 16.1,
+      "instructionalAides": 67.8,
+      "librarians": 1109.5,
+      "guidanceCounselors": 491.0,
+      "supportStaff": 26.6
     },
     {
-      "School year": 2014,
-      "Principals and assistant principals": 288.1,
-      "Teachers": 16.1,
-      "Instructional aides": 67.2,
-      "Librarians": 1127.5,
-      "Guidance counselors": 482.4,
-      "Support staff": 26.4
+      "schoolYear": 2014,
+      "principals": 288.1,
+      "teachers": 16.1,
+      "instructionalAides": 67.2,
+      "librarians": 1127.5,
+      "guidanceCounselors": 482.4,
+      "supportStaff": 26.4
     },
     {
-      "School year": 2015,
-      "Principals and assistant principals": 277.1,
-      "Teachers": 16.0,
-      "Instructional aides": 66.0,
-      "Librarians": 1163.0,
-      "Guidance counselors": 465.4,
-      "Support staff": 25.5
+      "schoolYear": 2015,
+      "principals": 277.1,
+      "teachers": 16.0,
+      "instructionalAides": 66.0,
+      "librarians": 1163.0,
+      "guidanceCounselors": 465.4,
+      "supportStaff": 25.5
     }
   ]
