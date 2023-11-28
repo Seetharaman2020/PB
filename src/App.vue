@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/people-bench-logo.svg" style="width:600px">
+  <img
+    alt="Vue logo"
+    src="./assets/people-bench-logo.svg"
+    style="width: 600px"
+  />
+  <Chart />
 </template>
 
 <script>
+import Chart from "./components/Chart.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    
-  }
-}
+    Chart,
+  },
+};
 </script>
 
 <style>
