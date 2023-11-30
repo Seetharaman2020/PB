@@ -1,5 +1,11 @@
 <template>
   <div class="example">
+    <select @change="updateChart">
+      <option value="" disabled selected>Please choose staff type</option>
+      <option v-for="type in menu" :key="type" :value="type">
+        {{ type }}
+      </option>
+    </select>
     <apexcharts
       type="line"
       height="350"
@@ -58,44 +64,81 @@ export default {
       },
       series: [
         {
-          name: "Staff FTE",
+          name: "Principals",
           type: "column",
           data: [],
         },
         {
-          name: "Pupils per staff member",
+          name: "Pupils per principals",
           type: "line",
           data: [],
         },
       ],
+      menu: [
+        "Principals",
+        "Teachers",
+        "Instructional Aides",
+        "Librarians",
+        "Guidance Counselors",
+        "Support Staff",
+      ],
     };
   },
   mounted() {
-    for (var i = 0; i < pupils.length; i++) {
-      // Assumption: Is FTE summation of all the staff members in staff.json?
-      var sumFte =
-        staff[i].principals +
-        staff[i].teachers +
-        staff[i].instructionalAides +
-        staff[i].librarians +
-        staff[i].guidanceCounselors +
-        staff[i].supportStaff;
-
-      // Assumption: Is the pupils per staff equal summation of all the pupil members in pupils.json?
-      var pupilsPerStaff =
-        pupils[i].principals +
-        pupils[i].teachers +
-        pupils[i].instructionalAides +
-        pupils[i].librarians +
-        pupils[i].guidanceCounselors +
-        pupils[i].supportStaff;
-
-      // dynamically updating the chart data here (if it's an API call, we can use a similar update function)
-      this.chartOptions.labels.push(pupils[i].schoolYear.toString());
-      // NOTE: to make the UI look good, I'm rounding off to 1 and 2 decimal places here.
-      this.series[0].data.push(sumFte.toFixed(1));
-      this.series[1].data.push(pupilsPerStaff.toFixed(2));
+    // by default, let's populate the chart with principals data
+    if (this.series[0].data.length == 0) {
+      for (var i = 0; i < pupils.length; i++) {
+        this.chartOptions.labels.push(pupils[i].schoolYear.toString());
+        this.series[0].data.push(staff[i].principals.toFixed(1));
+        this.series[1].data.push(pupils[i].principals.toFixed(2));
+      }
     }
+  },
+  methods: {
+    updateChart(e) {
+      // by default each time the menu is updated, we empty the array so that there is no ovelap of data
+      this.series[0].data = [];
+      this.series[1].data = [];
+
+      // updating the name of the menu items corresponding to the menu selected
+      this.series[0].name = e.target.value.toString();
+      this.series[1].name = "Pupils per " + e.target.value.toString();
+
+      // setting the label of the menu items corresponding to the json data
+      for (var i = 0; i < pupils.length; i++) {
+        this.chartOptions.labels.push(pupils[i].schoolYear.toString());
+      }
+
+      // updating the chart options based on the menu selected
+      for (i = 0; i < pupils.length; i++) {
+        switch (e.target.value) {
+          case "Principals":
+            this.series[0].data.push(staff[i].principals.toFixed(1));
+            this.series[1].data.push(pupils[i].principals.toFixed(2));
+            break;
+          case "Teachers":
+            this.series[0].data.push(staff[i].teachers.toFixed(1));
+            this.series[1].data.push(pupils[i].teachers.toFixed(2));
+            break;
+          case "Instructional Aides":
+            this.series[0].data.push(staff[i].instructionalAides.toFixed(1));
+            this.series[1].data.push(pupils[i].instructionalAides.toFixed(2));
+            break;
+          case "Librarians":
+            this.series[0].data.push(staff[i].librarians.toFixed(1));
+            this.series[1].data.push(pupils[i].librarians.toFixed(2));
+            break;
+          case "Guidance Counselors":
+            this.series[0].data.push(staff[i].guidanceCounselors.toFixed(1));
+            this.series[1].data.push(pupils[i].guidanceCounselors.toFixed(2));
+            break;
+          case "Support Staff":
+            this.series[0].data.push(staff[i].supportStaff.toFixed(1));
+            this.series[1].data.push(pupils[i].supportStaff.toFixed(2));
+            break;
+        }
+      }
+    },
   },
 };
 </script>
