@@ -1,17 +1,26 @@
 <template>
-  <div class="example">
-    <select @change="updateChart">
-      <option value="" disabled selected>Please choose staff type</option>
-      <option v-for="type in menu" :key="type" :value="type">
-        {{ type }}
-      </option>
-    </select>
-    <apexcharts
-      type="line"
-      height="350"
-      :options="chartOptions"
-      :series="series"
-    ></apexcharts>
+  <div>
+    <div class="example">
+      <div class="style-flex">
+        <select class="dropdown-style" @change="updateChart">
+          <option value="" disabled selected>Please choose staff type</option>
+          <option v-for="type in menu" :key="type" :value="type">
+            {{ type }}
+          </option>
+        </select>
+        <router-link to="Dashboard">
+          <button class="button-style">Update</button>
+        </router-link>
+      </div>
+    </div>
+    <div>
+      <apexcharts
+        type="line"
+        height="350"
+        :options="chartOptions"
+        :series="series"
+      ></apexcharts>
+    </div>
   </div>
 </template>
 
@@ -34,6 +43,28 @@ export default {
           height: 300,
           type: "line",
         },
+        markers: {
+          size: 10,
+          discrete: [
+            {
+              seriesIndex: 1,
+              dataPointIndex: 1,
+              fillColor: "#e3e3e3",
+              strokeColor: "#fff",
+              size: 15,
+              shape: "circle", // "circle" | "square" | "rect"
+            },
+            {
+              seriesIndex: 1,
+              dataPointIndex: 3,
+              fillColor: "#f7f4f3",
+              strokeColor: "#eee",
+              size: 10,
+              shape: "rect", // "circle" | "square" | "rect"
+            },
+          ],
+          // shape: "square",
+        },
         stroke: {
           width: [0, 3],
         },
@@ -41,7 +72,7 @@ export default {
           text: "PeopleBench Challenge",
         },
         dataLabels: {
-          enabled: true,
+          enabled: false,
           enabledOnSeries: [1],
         },
         labels: [],
@@ -142,3 +173,21 @@ export default {
   },
 };
 </script>
+
+<style>
+.style-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+.example {
+  width: 50%;
+  margin: auto;
+}
+
+.dropdown-style {
+}
+</style>

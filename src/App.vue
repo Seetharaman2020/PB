@@ -1,19 +1,14 @@
 <template>
-  <img
-    alt="Vue logo"
-    src="./assets/people-bench-logo.svg"
-    style="width: 600px"
-  />
-  <Chart />
+  <navbar />
+  <router-view></router-view>
 </template>
 
 <script>
-import Chart from "./components/Chart.vue";
-
+import Navbar from "@/components/Navbar.vue";
 export default {
   name: "App",
   components: {
-    Chart,
+    navbar: Navbar,
   },
 };
 </script>
@@ -25,6 +20,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: -10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 </style>
